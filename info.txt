@@ -1,1 +1,1 @@
-<?php echo shell_exec("ls -la"); ?>
+<?php print_r(scandir(".")); ?>
